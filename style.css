@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body {
+  margin: 0px;
+  background: rgb(40, 40, 40);
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size:40px;
+  margin-top:5%;
+}
+
+
+
+li {
+  display: inline;
+}
+
+p{
+  font-family: Raleway, sans-serif;
+  color: white;
+  font-size: 1.5em;
+  text-align: left;
+  margin-left: 1em;
+  margin-right: 1em;
+
+
+
+}
+
+img{
+  display: block;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:20%;
+  height:auto;
+}
+
+img:hover{
+  box-shadow: 0 0 50px 1px rgba(0, 140, 186, 0.5);
+
+}
+
+span:hover{
+  color: rgb(20,20,20);
+  background: #fff
+}
+
+span:hover .underline{
+  width: 100%;
+  opacity: 1;
+}
+
+.active{
+  background-color: #9b59b6;
+}
+
+.heading{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-color:white;
+  margin-top: 40%
+  opacity: 0.5
+  text-transform: lowercase;
+  letter-spacing: 3px;
+}
+
+#switchL{
+  cursor: pointer;
+  font-family: Raleway, sans-serif;
+  color: white;
+  opacity: 0.5;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+}
+
+#switchD{
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  opacity: 0.8;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+}
+/*
+
+.container{
+  position: relative;
+  width:100%
+}
+
+
+.image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 20%;
+  opacity: 0;
+  transition: 0.4s;
+  background-color: #111
+}
+
+.container:hover .overlay{
+  opacity: 0.8;
+}
+
+.text{
+  color:white;
+  font-family: Raleway, sans-serif;
+  font-size:20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform:translate(-50%, -50%);
+}
+
+
+
+ */
+
+
+
+.button {
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  background-color: rbga(0,0,0,0);
+  border: 1px white;
+  display: inline-block;
+  border-style: solid;
+  color: white;
+  padding: 15px 35px;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  transition:0.2s;
+  margin: 10px;
+}
+
+.button:hover {
+  color: rgb(20,20,20);
+  background: #fff
+
+}
+
+
+.underline{
+
+  position: absolute;
+  margin-top: 5px;
+  height: 1.5px;
+  width: 0px;
+  background-color: rgb(20, 20, 20);
+  transition: 1s;
+  opacity: 0;
+}
+
+
+.button:hover .underline {
+  width: 10%;
+  opacity: 1;
+
+}
