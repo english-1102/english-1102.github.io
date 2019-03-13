@@ -9,7 +9,8 @@ h1{
   font-family: 'Raleway', sans-serif;
   color: white;
   font-size:40px;
-  margin-top:5%;
+  margin-top:0.5em;
+  margin-left: 0.5em;
 }
 
 
@@ -17,7 +18,9 @@ h1{
 li {
   display: inline;
 }
-
+a{
+  color: white;
+}
 p{
   font-family: Raleway, sans-serif;
   color: white;
@@ -44,6 +47,8 @@ img:hover{
   box-shadow: 0 0 50px 1px rgba(0, 140, 186, 0.5);
 
 }
+
+
 
 span:hover{
   color: rgb(20,20,20);
@@ -86,51 +91,6 @@ span:hover .underline{
   text-transform: lowercase;
   letter-spacing: 3px;
 }
-/*
-
-.container{
-  position: relative;
-  width:100%
-}
-
-
-.image{
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: auto;
-  width: 20%;
-  opacity: 0;
-  transition: 0.4s;
-  background-color: #111
-}
-
-.container:hover .overlay{
-  opacity: 0.8;
-}
-
-.text{
-  color:white;
-  font-family: Raleway, sans-serif;
-  font-size:20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform:translate(-50%, -50%);
-}
-
-
-
- */
 
 
 
